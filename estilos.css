@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+title{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color:rgb(146, 7, 7)
+}
+h2,h3{
+    color:rgb(229, 229, 60)
+}
+body {
+    margin: 0 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111
+    ;
+    color: rgb(255, 255, 255)
+}
+
+header {
+    padding: 25px 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a,
+nav button {
+    color: rgb(63, 182, 237);
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+nav a:hover,
+nav button:hover {
+    opacity: 0.5;
+}
+
+
+
+#obra {
+
+}
+
+.obra1 {
+
+}
+
+.imagen-obra {
+    max-width: 300px; 
+    width: 100%;
+}
+.imagen-obra img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin:10%;
+}
